@@ -1,17 +1,22 @@
-<ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>
-      Tab 2
-    </ion-title>
-  </ion-toolbar>
-</ion-header>
+<body>
+  <header class="cabecalho">
+    <a href="">  <img class="cabecalho__img" src="../../assets/img/ion_chevron-back.png" alt=""> </a>
+      <h3 class="cabecalho__texto">Voltar</h3>
+  </header>
+  <main class="cadastro">
+    <h2 class="cadastro__titulo">Cadastrar</h2>
+    <form action="">
+      <input class="form__input form__nome" type="text" placeholder="Escolha um apelido">
+      <input class=" form__input form__email" type="email" placeholder="Insira seu email">
+      <input class="form__input form__password" type="password" placeholder="Escolha uma senha">
+      <input class="form__input form__password" type="password" placeholder="Confirme sua senha">
+    
+      <input class="form__submit" type="submit" name="" value="Registre-se">
+     </form>
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Tab 2</ion-title>
-    </ion-toolbar>
-  </ion-header>
-
-  <app-explore-container name="Tab 2 page"></app-explore-container>
-</ion-content>
+     
+  </main>
+  <footer class="rodape">
+    <h3 class="rodape__texto">Already have an account ? <b>Sing In</b></h3>
+  </footer>
+</body>

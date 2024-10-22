@@ -1,17 +1,23 @@
-<ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>
-      Tab 1
-    </ion-title>
-  </ion-toolbar>
-</ion-header>
+<body>
+  <header class="cabecalho">
+      <h1 class="cabecalho__titulo"><b>Cadastro</b></h1>
+  </header>
+  <section class="imagem">
+    <img class="imagem__imagem" src="../../assets/img/logo.png" alt="">
+  </section>
+  <main class="cadastro">
+    <h2 class="cadastro__titulo">	<b>Entrar</b></h2>
+    <form action="">
+      <input class=" form__input form__email" type="email" placeholder="Insira seu email">
+      <input class="form__input form__password" type="password" placeholder="Insira sua senha">
+      <a class="form__esqueceu" href=""><h3 class="form__texto" ><b>Esqueceu a senha?</b></h3></a>
+      <input class="form__submit" type="submit" name="">
+     </form>
+     
+    
+  </main>
+  <footer class="rodape">
+    <h3 class="rodape__texto">Não tem uma conta ? <a href=""><b>Criar Conta</b></a></h3>
+  </footer>
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Tab 1</ion-title>
-    </ion-toolbar>
-  </ion-header>
-
-  <app-explore-container name="Tab 1 page"></app-explore-container>
-</ion-content>
+</body>

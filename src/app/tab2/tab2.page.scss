@@ -1,0 +1,106 @@
+body{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+*{
+    margin: 0;
+    padding: 0;
+    }
+    .cabecalho{
+        display: flex;
+        padding-top:4em ;
+        align-items: center;
+        padding-left: 1em;
+        
+    }
+    .cabecalho__img{
+        width: 20px;
+    }
+.cabecalho__texto{
+    color: #471AA0;
+    font-size: 12px;
+    padding-bottom: 3px;
+}
+.cadastro__titulo{
+    color: #471AA0;
+    font-size: 30px;
+    font-weight: 700;
+    padding-bottom: 1.3em;
+}
+//css formulario
+.cadastro{
+    padding: 5.20em 1em 3.5em 1em;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 2.3em;
+   
+    
+}
+.form__input{
+    border-radius: 45px;
+ 
+    border: 1px solid #471AA0;
+    height: 50px;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+    outline: none;
+    padding-left: 3em;
+    color: black;
+    background-color: white;
+    transition: background-color 0.3s;
+    
+    
+   
+}
+.form__input:focus{
+    background-color: #D9D9D9;
+}
+.form__nome{
+    background: url('../../assets/img/Vector-1.png') no-repeat;
+    background-position: 1em center;
+}
+.form__email{
+ 
+    background: url('../../assets/img/ic_outline-email.png') no-repeat;
+    background-position: 1em center;
+   
+}
+.form__password{
+    background: url('../../assets/img/Vector-2.png') no-repeat;
+    background-position: 1em center;
+    
+}
+.form__texto{
+    font-size: 15px;
+ 
+    font-weight: 700;
+}
+.form__submit{
+    border-radius: 15px;
+    margin-top: 1.5em;
+    padding: 0.8em 0;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+    background-color: #471AA0;
+    transition: 0.3s ease-in-out;
+    
+}
+.form__submit:active{
+    transform: translateY(-3px);
+    background-color: #6635C7;
+}
+.rodape{
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    height: 100%;
+}
+.rodape__texto{
+    margin: 0;
+    padding-bottom: 1em;
+    color: #471AA0;
+    font-size: 15px;
+    text-align: center;
+
+}

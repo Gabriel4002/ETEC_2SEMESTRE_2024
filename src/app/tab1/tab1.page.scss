@@ -1,0 +1,112 @@
+:root{
+    --roxo__primario: #471AA0;
+    --branco: #FFFF;
+    --cinza__input: #D9D9D9;
+    --fonte__primaria: 'Inter';
+}
+body{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+*{
+    margin: 0;
+    padding: 0;
+    }
+.cabecalho{
+    color: var(--branco);
+    background-color: #471AA0;
+    padding: 0.8em;
+
+
+}
+.cabecalho__titulo{
+    padding-left: 0.5em;
+}
+.imagem{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 1.8em;
+}
+.imagem__imagem{
+    width: 252px;
+}
+.cadastro__titulo{
+    font-size: 30px;
+    padding-left: 1.2em;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    padding: 3em 1.5em;
+    
+}
+.form__input{
+    border-radius: 45px;
+ 
+    border: 1px solid #471AA0;
+    height: 50px;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+    outline: none;
+    padding-left: 3em;
+    color: black;
+    background-color: white;
+    transition: background-color 0.3s;
+    
+    
+   
+}
+.form__input:focus{
+    background-color: #D9D9D9;
+}
+.form__email{
+ 
+    background: url('../../assets/img/Vector-1.png') no-repeat;
+    background-position: 1em center;
+    margin-bottom: 2.5em;
+}
+
+.form__password{
+    background: url('../../assets/img/Vector-2.png') no-repeat;
+    background-position: 1em center;
+    margin-bottom: 1em;
+    
+}
+.form__esqueceu{
+    text-align: right;
+    
+    text-decoration: none;
+    margin-bottom: 2.5em;
+}
+.form__texto{
+    font-size: 15px;
+ 
+    font-weight: 700;
+}
+.form__submit{
+    border-radius: 15px;
+    padding: 0.8em 0;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+    background-color: #471AA0;
+    transition: 0.3s ease-in-out;
+}
+.form__submit:active{
+    transform: translateY(-3px);
+    background-color: #6635C7;
+}
+.rodape{
+    text-align: center;
+    padding-top: 10%;
+}
+.rodape__texto{
+    font-size: 15px;
+    font-weight: 700;
+}
+
+a{
+    text-decoration: none;
+    color: #471AA0;
+}
+h3,h2{
+    color: #471AA0;
+}
