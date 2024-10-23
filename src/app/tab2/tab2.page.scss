@@ -2,6 +2,7 @@ body{
     background-color: white;
     display: flex;
     flex-direction: column;
+    
 }
 *{
     margin: 0;
@@ -9,14 +10,12 @@ body{
     }
     .cabecalho{
         display: flex;
-        padding-top:4em ;
+        padding-top:1em ;
         align-items: center;
         padding-left: 1em;
         
     }
-    .cabecalho__img{
-        width: 20px;
-    }
+    
 .cabecalho__texto{
     color: #471AA0;
     font-size: 12px;
@@ -30,7 +29,13 @@ body{
 }
 //css formulario
 .cadastro{
-    padding: 5.20em 1em 3.5em 1em;
+    padding: 0em 1em 3.5em 1em;
+
+}
+.cadastro__img{
+    width: 50%;
+    margin-left: 22%;
+   
 }
 form{
     display: flex;
@@ -93,12 +98,12 @@ form{
 .rodape{
     display: flex;
     justify-content: center;
-    align-items: end;
+    align-items:start;
     height: 100%;
 }
 .rodape__texto{
     margin: 0;
-    padding-bottom: 1em;
+    padding-bottom: 5em;
     color: #471AA0;
     font-size: 15px;
     text-align: center;

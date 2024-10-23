@@ -7,17 +7,29 @@
   </section>
   <main class="cadastro">
     <h2 class="cadastro__titulo">	<b>Entrar</b></h2>
-    <form action="">
+    <form id="formulario" action="">
       <input class=" form__input form__email" type="email" placeholder="Insira seu email">
       <input class="form__input form__password" type="password" placeholder="Insira sua senha">
       <a class="form__esqueceu" href=""><h3 class="form__texto" ><b>Esqueceu a senha?</b></h3></a>
-      <input class="form__submit" type="submit" name="">
+      <input class="form__submit" type="submit" name="" >
      </form>
-     
     
   </main>
   <footer class="rodape">
-    <h3 class="rodape__texto">Não tem uma conta ? <a href=""><b>Criar Conta</b></a></h3>
+    <h3 class="rodape__texto">Não tem uma conta ? <a href="http://localhost:8100/tabs/tab2"><b>Criar Conta</b></a></h3>
   </footer>
 
 </body>
+
+<script>
+  // Seleciona o formulário
+  const form = document.getElementById('formulario');
+
+  // Adiciona um evento de submissão para o formulário
+  form.addEventListener('submit', function(event) {
+    event.preventDefault(); // Impede o comportamento padrão do submit (recarregar a página)
+    
+    // Redireciona o usuário para a página recém-criada
+    window.location.replace('/pagina-inicial'); // Redireciona sem adicionar ao histórico // Substitua pelo caminho correto da página
+  });
+</script>
